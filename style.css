@@ -1,0 +1,60 @@
+/* Styling dasar */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Kotak form */
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0 2);
+  width: 350px;
+  text-align: center;
+}
+
+/* Judul */
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input */
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #2193b0;
+  box-shadow: 0 0 8px rgba(33,147,176,0.4);
+}
+  
+  /* Tombol */
+  button {
+    background: #2193b0;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: #176d84;
+  }
+  
